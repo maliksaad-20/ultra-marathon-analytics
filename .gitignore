@@ -224,7 +224,7 @@ data/raw/TWO_CENTURIES_OF_UM_RACES.csv
 data/interim/ultra_marathon_races_cleaned.csv
 
 # temporary scripts and notebooks
-notebooks/01_data_cleaning copy.ipynb
+notebooks/01_data_cleaning2.ipynb
 src/data_processing_raw.py
 
 # Logs 
