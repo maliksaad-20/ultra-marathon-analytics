@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Source Files
+data/raw/TWO_CENTURIES_OF_UM_RACES.csv
+
+# Intermediate data files
+data/interim/ultra_marathon_races_cleaned.csv
+
+# temporary scripts and notebooks
+notebooks/01_data_cleaning copy.ipynb
+src/data_processing_raw.py
+
+# Logs 
+logs/app.log

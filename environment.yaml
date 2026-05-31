@@ -1,0 +1,78 @@
+# name: ultra-marathon-env
+
+# channels:
+#   - conda-forge
+#   - defaults
+
+# dependencies:
+#   - python=3.11
+#   - pandas
+#   - numpy
+#   - matplotlib
+#   - seaborn
+#   - scipy
+#   - scikit-learn
+#   - jupyter
+#   - pip
+
+#   - pip:
+#       - kaggle
+
+name: ultra-marathon-analytics
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+
+# Python version
+
+  - python=3.11
+
+# Core data analytics
+
+  - pandas=2.2.2
+  - numpy=1.26.4
+  - scipy=1.13.1
+
+# Visualization
+
+  - matplotlib #=3.9.0
+  - seaborn #=0.13.2
+  - plotly #=5.22.0
+
+# Machine learning
+
+  - scikit-learn=1.5.0
+
+# Notebook environment
+
+  - notebook=7.2.0
+  - jupyterlab=4.2.1
+  - ipykernel
+
+# Utilities
+
+  - tqdm
+  - pyyaml    
+
+# Testing
+
+  - pytest
+
+# Code formatting & linting
+
+  - black
+  - flake8
+
+# Pip support
+
+  - pip
+
+# Pip-only packages
+
+  - pip:
+
+      - kaggle
+      - missingno
